@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # 微博模型
+  resources :microposts
+  # 用户模型
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
